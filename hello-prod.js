@@ -4,8 +4,3 @@ http.createServer(function (req, res) {
   res.end('Hello World\nTejasre test site is working\nCody is awesome');
 }).listen(3000, 'localhost');
 console.log('Server running at http://localhost:3000/');
-function includeJS(incFile)
-{
-	document.write('<script type="text/javascript" src="'+ incFile+ '"></script>');
-}
-includeJS('function.js');
